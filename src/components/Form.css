@@ -1,0 +1,69 @@
+form {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25em;
+  gap: 1.25em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3125em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8em;
+  color: var(--verydarkviolet);
+}
+input {
+  border: 0.125em solid var(--lightgrayishviolet);
+  border-radius: 0.625em;
+  padding: 0.9375em;
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  padding: 1.25em;
+  text-transform: uppercase;
+  border-radius: 0.625em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--verydarkviolet);
+  animation: shake 0.5s;
+}
+
+.form__cvc--and--dates {
+  display: flex;
+}
+
+.dates {
+  width: 60%;
+}
+.dates__inputs {
+  display: flex;
+  gap: 0.9em;
+  margin: 0 1.25em 0 0;
+}
+
+.cvc {
+  width: 40%;
+}
+@media (min-width: 48em) {
+  form {
+    width: 60%;
+  }
+  input,
+  button {
+    width: 90%;
+  }
+
+  .cvc {
+    width: 33%;
+  }
+
+  .dates__inputs {
+    display: flex;
+  }
+}

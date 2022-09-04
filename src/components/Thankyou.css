@@ -1,0 +1,24 @@
+.thankyou__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.9375rem 0;
+  font-size: 0.75rem;
+  margin-top: 3.125em;
+  padding: 0 2rem;
+  -webkit-animation: animShowNext 0.5s cubic-bezier(0.7, 0, 0.3, 1) both 0.11s;
+  -moz-animation: animShowNext 0.5s cubic-bezier(0.7, 0, 0.3, 1) both 0.11s;
+  animation: animShowNext 0.5s cubic-bezier(0.7, 0, 0.3, 1) both 0.11s;
+}
+.check_icon > img {
+  width: 5em;
+}
+@media (min-width: 48em) {
+  .thankyou__section > h2 {
+    font-size: 2rem;
+  }
+  .thankyou__section > p {
+    font-size: 0.8rem;
+  }
+}
