@@ -50,15 +50,17 @@ Users should be able to:
 <table>
         <tr>
 		    <td>
-                <img src="./screenshots/mobile--screenshot.PNG"
+                <img src="https://user-images.githubusercontent.com/75971776/188298664-0920270a-5eea-416d-a1b9-d38f2766cdbc.png"
                     alt="Mobile solution" width="100%" title="Mobile solution"  />
             </td>
           <td>
-                <img src="./screenshots/desktop--screenshot.png"
+                <img src="https://user-images.githubusercontent.com/75971776/188298630-aa71b779-590f-4082-b932-0b32d635bfcf.png"
                     alt="Desktop solution" width="100%" title="Desktop solution"/>
             </td>
         </tr>
 </table>
+
+
 
 ### Links
 
